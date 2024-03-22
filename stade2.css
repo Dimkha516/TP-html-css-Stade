@@ -1,0 +1,479 @@
+*{
+    margin: 0 auto;
+    width: 90%;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body {
+     
+} */
+.main{
+    position: relative;
+    top: 30px;
+    right: 70px;
+    height: 90vh;
+    width: 1400px;
+    background-color: black;
+    border: solid 2px black;
+    overflow: hidden;
+}
+.pelouse{
+    border-radius: 10px;
+    position: relative;
+    top: -33px;
+    height: 50vh;
+    width: 63vw;
+    background-color: green;
+}
+.terrain{
+    position: relative;
+    top: 30px;
+    margin-top: 5%;
+    border: solid white 2px;
+    border-radius: 6px;
+    height: 40vh;
+    overflow: hidden;
+}
+.deco{
+ display: flex;
+ justify-content: space-around;   
+}
+.deco hr{
+    background-color: rgb(43, 106, 43);
+    border: 1px solid rgb(43, 106, 43);
+    width: 2vw;
+    height: 50vh;
+}
+
+/*  */
+.coin1{
+    border: solid white 3px;
+    border-radius: 0 0 100% 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: 5vh;
+}
+.but1{
+    border: solid white 3px;
+    border-left: none;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 5%;
+    height: 8vh;
+}
+.penal1{
+    background-color: white;
+    position: absolute;
+    top: 145px;
+    left: 60px;
+    width: 1vw;
+    height: 1vh;
+    border-radius: 50%;
+}
+.surface1{
+    border: solid white 3px;
+    border-left: none;
+    position: absolute;
+    top: 60px;
+    left: 2px;
+    width: 15%;
+    height: 25vh;
+}
+.coin2{
+    border: solid white 3px;
+    border-radius: 0 100% 0 0;
+    position: absolute;
+    top: 250px;
+    left: -1px;
+    width: 5%;
+    height: 5vh;
+}
+/*  */
+.coin3{
+    border: solid white 3px;
+    border-radius: 0 0 0 100%;
+    position: absolute;
+    top: 0;
+    left: 95%;
+    width: 5%;
+    height: 5vh;
+}
+.but2{
+    border: solid white 3px;
+    border-right: none;
+    position: absolute;
+    top: 120px;
+    left: 95%;
+    width: 5%;
+    height: 8vh;
+}
+.penal2{
+    background-color: white;
+    position: absolute;
+    top: 145px;
+    left: 90%;
+    width: 1vw;
+    height: 1vh;
+    border-radius: 50%;
+}
+.surface2{
+    border: solid white 3px;
+    border-right: none;
+    position: absolute;
+    top: 60px;
+    left: 85%;
+    width: 15%;
+    height: 25vh;
+}
+.coin4{
+    border: solid white 3px;
+    border-radius: 100% 0 0 0;
+    position: absolute;
+    top: 250px;
+    left: 95%;
+    width: 5%;
+    height: 5vh;
+}
+/*  */
+.trait-milieu{
+    background-color: white;
+    height: 40vh;
+    width: 0.1%;
+    margin-top: -360px;
+}
+.point-centre{
+    background-color: white;
+    margin-top: -145px;
+    width: 1vw;
+    height: 1vh;
+    border-radius: 50%;
+}
+
+.rond-centre{
+    margin-top: -30px;
+    width: 5vw;
+    height: 8vh;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+.stade-name{
+    position: absolute;
+    top: 120px;
+    right: -205px;
+    font-size: 2rem;
+    color: white;
+    opacity: 0.3;
+}
+/*  */
+.nbr-places{
+    position: absolute;
+    top: 8px;
+    right: -420px;
+    color: white;
+    font-weight: 900;
+}
+.balls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.balls span{
+    position: relative;
+    width: 2%;
+    margin: 30px;
+    background-color: white;
+    border-radius: 60%;
+    height: 3vh;
+}
+.ball1{
+    top: -2px;
+    right: -55px;
+}
+.ball2{
+    top: 7px;
+}
+.ball3{
+    top: 7px;
+    left: -55px;
+}
+/*  */
+
+.vert1{
+    position: relative;
+    top: -2px;
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;
+}
+.vert1 p{
+    background-color: green;
+    color: white;
+    margin: 1.8px;
+    font-weight: 200;
+    height: 2.5vh;
+    border-radius: 0 8px 0 5px;
+}
+.vert2{
+    position: relative;
+    top: -2px;
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;   
+}
+.vert2 p{
+    background-color: green;
+    margin: 1.8px;
+    color: white;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px;    
+}
+.jaune1{
+    position: relative;
+    top: -2px;
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;   
+}
+.jaune1 p{
+    background-color: yellow;
+    margin: 1.8px;
+    height: 2.5vh;
+    color: black;
+    font-weight: 200;
+    border-radius: 0 10px 0 5px;    
+}
+.jaune2{
+    position: relative;
+    top: -2px;
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;   
+}
+.jaune2 p{
+    background-color: yellow;
+    margin: 1.8px;
+    height: 2.5vh;
+    color: black;
+    font-weight: 200;
+    border-radius: 0 10px 0 5px;    
+}
+.rouge1{
+    position: relative;
+    top: -2px;
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;   
+}
+.rouge1 p{
+    background-color: red;
+    margin: 1.8px;
+    height: 2.5vh;
+    color: white;
+    font-weight: 200;
+    border-radius: 0 10px 0 5px;    
+}
+.rouge2{
+    position: relative;
+    top: -2px;
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;   
+}
+.rouge2 p{
+    background-color: red;
+    margin: 1.8px;
+    height: 2.5vh;
+    color: white;
+    font-weight: 200;
+    border-radius: 0 10px 0 5px;    
+}
+
+
+/*  */
+.trib-gauche{
+    position: relative;
+    left: -180px;
+}
+.gauche-vert1 p{
+    background-color: green;
+    margin: 3px;
+    color: white;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px; 
+}
+.gauche-vert2 p{
+    background-color: green;
+    margin: 3px;
+    color: white;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px; 
+}
+.droite-vert1 p{
+    background-color: red;
+    margin: 3px;
+    color: white;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px; 
+}
+.droite-vert2 p{
+    background-color: red;
+    margin: 3px;
+    color: white;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px; 
+}
+
+
+/*  */
+.gauche-vert1{
+    position: absolute;
+    left: 110px;
+    width: 2vw;
+}
+.gauche-vert2{
+    position: absolute;
+    left: 150px;
+    width: 2vw;
+}
+.droite-vert1{
+    position: absolute;
+    left: 110px;
+    width: 2vw;
+}
+.droite-vert2{
+    position: absolute;
+    left: 150px;
+    width: 2vw;
+}
+/*  */
+
+.gauche-jaune1 p{
+    background-color: yellow;
+    margin: 3px;
+    color: black;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px;
+}
+
+.gauche-jaune2 p{
+    background-color: yellow;
+    margin: 3px;
+    color: black;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px;
+}
+.droite-jaune1 p{
+    background-color: yellow;
+    margin: 3px;
+    color: black;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px;
+}
+
+.droite-jaune2 p{
+    background-color: yellow;
+    margin: 3px;
+    color: black;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px;
+}
+
+
+/*  */
+.gauche-jaune1{
+    position: absolute;
+    left: 180px;
+    width: 2vw;
+}
+.gauche-jaune2{
+    position: absolute;
+    left: 220px;
+    width: 2vw;
+}
+.droite-jaune1{
+    position: absolute;
+    left: 180px;
+    width: 2vw;
+}
+.droite-jaune2{
+    position: absolute;
+    left: 220px;
+    width: 2vw;
+}
+/*  */
+.gauche-rouge1 p{
+    background-color: red;
+    margin: 3px;
+    color: white;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px;
+}
+.gauche-rouge2 p{
+    background-color: red;
+    margin: 3px;
+    color: white;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px;
+}
+.droite-rouge1 p{
+    background-color: green;
+    margin: 3px;
+    color: white;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px;
+}
+.droite-rouge2 p{
+    background-color: green;
+    margin: 3px;
+    color: white;
+    height: 2.5vh;
+    font-weight: 200;
+    border-radius: 0 8px 0 5px;
+}
+
+
+/*  */
+.gauche-rouge1{
+    position: absolute;
+    left: 250px;
+    width: 2vw;
+}
+.gauche-rouge2{
+    position: absolute;
+    left: 280px;
+    width: 2vw;
+}
+.droite-rouge1{
+    position: absolute;
+    left: 250px;
+    width: 2vw;
+}
+.droite-rouge2{
+    position: absolute;
+    left: 280px;
+    width: 2vw;
+}
+
+
+
+/*  */
+
+.trib-droite{
+    position: relative;
+    left: 1010px;
+}
